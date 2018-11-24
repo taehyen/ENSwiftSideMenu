@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => "https://github.com/evnaz/ENSwiftSideMenu.git", :tag => "0.1.3"}
   s.source_files      = "Library/ENSideMenu.swift", "Library/ENSideMenuNavigationController.swift"
 
+  s.swift_version = '4.2'
+
 end
